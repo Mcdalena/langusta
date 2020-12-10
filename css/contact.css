@@ -1,0 +1,114 @@
+#contact
+{
+  width: 100%;
+  background-color: #b03b2f;
+}
+#condata
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: auto;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: white;
+}
+#promoter1
+{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+#wtu
+{
+  width: 100%;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+}
+  
+  
+
+
+@media only screen and (min-width: 450px)
+{
+	#contact
+  {
+    width: 100%;
+  }
+
+  #con
+  {
+    width: 100%;
+    height: auto;
+    background-color: #b03b2f;
+    padding-top: 4%;
+    padding-bottom: 4%;
+  }
+
+  #condata
+  {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+  }
+
+  #promoter1
+  {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+
+  #wtu
+  {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+  }
+}
+
+@media only screen and (min-width: 700px)
+{
+	#contact
+	{
+		width: 100%;
+	  background-color: #b03b2f;
+	}
+	#condata
+	{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    height: auto;
+		width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: white;
+	}
+  #promoter1
+  {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+
+  #wtu
+  {
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    color: white;
+  }
+}

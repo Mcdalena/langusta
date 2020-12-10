@@ -1,0 +1,479 @@
+#gallery
+{
+  width: 100%;
+  background-color: rgba(34, 34, 34, 1);  
+  height: auto;
+  top: 60px;
+}
+
+.gallcont
+{
+  height: 90%;
+  width: 100%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.slidebox
+{
+  max-width: 90%;
+  position: relative;
+  margin: auto;
+}
+
+.slides 
+{
+	display:none;
+}
+
+.allline
+{
+  width: 100%;
+  height: 100%;
+}
+
+.top-line
+{
+  width: 100%;
+  height: 50%;
+}
+
+.bot-line
+{
+  width: 100%;
+  height: 50%;
+}
+
+.zdj
+{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.zdj img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.zdj1
+{
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.zdj1 img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.cr
+{
+  clear: both;
+}
+
+.prev, .next 
+{
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 0 0 0;
+  background-color: rgba(22,22,22,1);
+}
+
+.next 
+{
+  right: 0;
+  border-radius:0 0 0 0;
+}
+
+.prev:hover, .next:hover 
+{
+  background-color: rgba(176,59,47,1);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot 
+{
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  border: 1px solid #b03b2f;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover 
+{
+  background-color: #b03b2f;
+}
+
+.fade 
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from 
+  {
+  	opacity: .4;
+  } 
+  to 
+  {
+  	opacity: 1;
+    }
+}
+
+@keyframes fade {
+  from 
+  {
+  	opacity: .4;
+  } 
+  to 
+  {
+  	opacity: 1;
+  }
+}
+
+@media only screen and (min-width: 450px)
+{
+  #gallery
+  {
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1);  
+    height: auto;
+    top: 60px;
+  }
+
+  .gallcont
+  {
+    height: 90%;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .slidebox
+  {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+  }
+
+  .slides 
+  {
+    display:none;
+  }
+
+  .allline
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .top-line
+  {
+    width: 100%;
+    height: 50%;
+  }
+
+  .bot-line
+  {
+    width: 100%;
+    height: 50%;
+  }
+
+  .zdj
+  {
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+
+  .zdj img
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .zdj1
+  {
+    width: 50%;
+    height: 100%;
+    float: left;
+  }
+
+  .zdj1 img
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cr
+  {
+    clear: both;
+  }
+
+  .prev, .next 
+  {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 0 0 0;
+    background-color: rgba(22,22,22,1);
+  }
+
+  .next 
+  {
+    right: 0;
+    border-radius:0 0 0 0;
+  }
+
+  .prev:hover, .next:hover 
+  {
+    background-color: rgba(176,59,47,1);
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .dot 
+  {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    border: 1px solid #b03b2f;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover 
+  {
+    background-color: #b03b2f;
+  }
+
+  .fade 
+  {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from 
+    {
+      opacity: .4;
+    } 
+    to 
+    {
+      opacity: 1;
+      }
+  }
+
+  @keyframes fade {
+    from 
+    {
+      opacity: .4;
+    } 
+    to 
+    {
+      opacity: 1;
+    }
+  }
+
+}
+
+@media only screen and (min-width: 450px)
+{
+  #gallery
+  {
+    width: 100%;
+    background-color: rgba(34, 34, 34, 1);  
+    height: auto;
+    top: 60px;
+  }
+
+  .gallcont
+  {
+    height: 90%;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+
+  .slidebox
+  {
+    max-width: 90%;
+    position: relative;
+    margin: auto;
+  }
+
+  .slides 
+  {
+    display:none;
+  }
+
+  .allline
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .top-line
+  {
+    width: 100%;
+    height: 50%;
+  }
+
+  .bot-line
+  {
+    width: 100%;
+    height: 50%;
+  }
+
+  .zdj
+  {
+    width: 25%;
+    height: 100%;
+    float: left;
+  }
+
+  .zdj img
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .zdj1
+  {
+    width: 25%;
+    height: 100%;
+    float: left;
+  }
+
+  .zdj1 img
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .cr
+  {
+    clear: both;
+  }
+
+  .prev, .next 
+  {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 0 0 0;
+    background-color: rgba(22,22,22,1);
+  }
+
+  .next 
+  {
+    right: 0;
+    border-radius:0 0 0 0;
+  }
+
+  .prev:hover, .next:hover 
+  {
+    background-color: rgba(176,59,47,1);
+  }
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .dot 
+  {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    border: 1px solid #b03b2f;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .active, .dot:hover 
+  {
+    background-color: #b03b2f;
+  }
+
+  .fade 
+  {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+
+  @-webkit-keyframes fade {
+    from 
+    {
+      opacity: .4;
+    } 
+    to 
+    {
+      opacity: 1;
+      }
+  }
+
+  @keyframes fade {
+    from 
+    {
+      opacity: .4;
+    } 
+    to 
+    {
+      opacity: 1;
+    }
+  }

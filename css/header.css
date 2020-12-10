@@ -1,0 +1,318 @@
+.header
+{
+  width:100%;
+  background-color: transparent;
+  height: 60px;
+  z-index: 200;
+  position: fixed;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navdiv 
+{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 202;
+  top: 0;
+  left: 0;
+  background-color: rgba(38,38,38, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.nav 
+{
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    top: 5%;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.navdiv a 
+{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.navdiv a:hover, .navdiv a:focus 
+{
+    color: #fff;
+    background-color: #b03b2f;
+}
+
+.navdiv .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+}
+
+.hamburger
+{
+  width: 20%;
+  font-size:35px;
+  color: #fff;
+  line-height: 160%;
+  padding-left: 2%;
+  border: 0;
+  display: inline-block;
+  font-weight: bold;
+  float: left;
+}
+
+.logo
+{
+  text-align: right;
+  width: 50%;
+  margin: 0;
+  padding-right: 2%;
+  height: 60px;
+  line-height: 600%;
+  float: right;
+}
+
+.logo img
+{
+  width: 100%;
+  height: 100%;
+}
+
+.logo a
+{
+  display: block;
+  height: 50px;
+  text-decoration: none;
+}
+
+@media  only screen and (min-width: 450px)
+{
+  .header
+  {
+    width:100%;
+    background-color: transparent;
+    height: 60px;
+    z-index: 200;
+    position: fixed;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .navdiv 
+  {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 202;
+    top: 0;
+    left: 0;
+    background-color: rgba(38,38,38, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .nav 
+  {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    top: 10%;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+  }
+
+  .navdiv a 
+  {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #fff;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .navdiv a:hover, .navdiv a:focus 
+  {
+      color: #fff;
+      background-color: #b03b2f;
+  }
+
+  .navdiv .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+  }
+
+  .hamburger
+  {
+    font-size:25px;
+    color: #fff;
+    line-height: 240%;
+    padding-left: 2%;
+    border: 0;
+    font-weight: bold;
+  }
+
+  .logo
+  {
+    text-align: right;
+    width: 30%;
+    margin: 0;
+    padding-right: 2%;
+    height: 60px;
+    line-height: 600%;
+    float: right;
+  }
+
+  .logo img
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo a
+  {
+    display: block;
+    height: 50px;
+    text-decoration: none;
+  }
+
+  .hamburger
+  {
+    width: 20%;
+    font-size:35px;
+    color: #fff;
+    line-height: 160%;
+    padding-left: 2%;
+    border: 0;
+    display: inline-block;
+    font-weight: bold;
+    float: left;
+  }
+
+}
+
+@media only screen and (min-width: 850px)
+{
+  .header
+  {
+    width:100%;
+    background-color: transparent;
+    height: 60px;
+    z-index: 200;
+    position: fixed;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .navdiv 
+  {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 202;
+    top: 0;
+    left: 0;
+    background-color: rgba(38,38,38, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+
+  .nav 
+  {
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    top: 10%;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+  }
+
+  .navdiv a 
+  {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #fff;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .navdiv a:hover, .navdiv a:focus 
+  {
+      color: #fff;
+      background-color: #b03b2f;
+  }
+
+  .navdiv .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+  }
+
+  .hamburger
+  {
+    font-size:25px;
+    color: #fff;
+    line-height: 240%;
+    padding-left: 2%;
+    border: 0;
+    font-weight: bold;
+  }
+
+  .logo
+  {
+    text-align: right;
+    width: 20%;
+    margin: 0;
+    padding-right: 2%;
+    height: 60px;
+    line-height: 600%;
+    float: right;
+  }
+
+  .logo img
+  {
+    width: 100%;
+    height: 100%;
+  }
+
+  .logo a
+  {
+    display: block;
+    height: 50px;
+    text-decoration: none;
+  }
+
+  .hamburger
+  {
+    width: 20%;
+    font-size:35px;
+    color: #fff;
+    line-height: 160%;
+    padding-left: 2%;
+    border: 0;
+    display: inline-block;
+    font-weight: bold;
+    float: left;
+  }
+
+}

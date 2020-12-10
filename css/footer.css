@@ -1,0 +1,338 @@
+.footer
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 50%;
+  bottom: 0;
+  box-shadow: 2px 2px 15px #111111;
+}
+
+.footer img
+{
+  width: 40%;
+  height: 40%;
+  bottom: 0px;
+}
+
+.social
+{
+  background-color: #161616;
+}
+
+.social-div
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+  text-align: center;
+  height: auto;
+  line-height: 540%;
+}
+
+#fb
+{
+  width: 100%;
+  height: 50%;
+}
+
+#fb a
+{
+  display: block;
+  height: 75px;
+}
+
+#fb a:hover
+{
+  background-color: #3b5998;
+}
+
+#twitch
+{
+  width: 100%;
+  height: 50%;
+}
+
+#twitch a
+{
+  display: block;
+  height: 75px;
+}
+
+#twitch a:hover
+{
+  background-color: #6441a4;
+}
+
+
+.contactAuthor
+{
+  width: 100%;
+  background-color: #181818;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  height: auto;
+}
+
+.author
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  color: #fff;
+  font-size: 9px;
+  text-align: center;
+}
+
+.adminlink
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+}
+
+.adminlink a
+{
+  text-decoration: none;
+  color: white;
+  font-size: 9px;
+}
+
+.adminlink a:hover
+{
+  text-decoration: none;
+  color: white;
+  font-size: 9px;
+}
+
+@media only screen and (min-width: 450px)
+{
+  .footer
+  {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    box-shadow: 2px 2px 15px #111111;
+    bottom: 0;
+  }
+
+  .footer img
+  {
+    width: 35%;
+    height: 35%;
+    bottom: 0px;
+  }
+
+  .social
+  {
+    background-color: #161616;
+  }
+
+  .social-div
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%; 
+    text-align: center;
+    height: 150px;
+    line-height: 540%;
+  }
+
+  #fb
+  {
+    width: 100%;
+    height: 50%;
+  }
+
+  #fb a
+  {
+    display: block;
+    height: 75px;
+  }
+
+  #fb a:hover
+  {
+    background-color: #3b5998;
+  }
+
+  #twitch
+  {
+    width: 100%;
+    height: 50%;
+  }
+
+  #twitch a
+  {
+    display: block;
+    height: 75px;
+  }
+
+  #twitch a:hover
+  {
+    background-color: #6441a4;
+  }
+
+
+  .contactAuthor
+  {
+    width: 100%;
+    background-color: #181818;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    height: auto;
+  }
+
+  .author
+  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .adminlink
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+  }
+
+  .adminlink a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+  }
+
+  .adminlink a:hover
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 700px)
+{
+ .footer
+  {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 20%;
+    bottom: 0;
+    box-shadow: 2px 2px 15px #111111;
+  }
+
+  .footer img
+  {
+    width: 30%;
+    height: 30%;
+    bottom: 0px;
+  }
+
+  .social
+  {
+    background-color: #161616;
+  }
+
+  .social-div
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%; 
+    text-align: center;
+    height: 100px;
+    line-height: 720%;
+  }
+
+  #fb
+  {
+    width: 50%;
+    float: left;
+    height: 100%;
+  }
+
+  #fb a
+  {
+    display: block;
+    height: 100px;
+  }
+
+  #fb a:hover
+  {
+    background-color: #3b5998;
+  }
+  
+  #twitch
+  {
+    width: 50%;
+    float: left;
+    height: 100%;
+  }
+
+  #twitch a
+  {
+    display: block;
+    height: 100px;
+  }
+
+  #twitch a:hover
+  {
+    background-color: #6441a4;
+  }
+
+
+  .contactAuthor
+  {
+    width: 100%;
+    background-color: #181818;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: auto;
+  }
+
+  .author
+  {
+    display: block;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    color: #fff;
+    font-size: 9px;
+    text-align: center;
+  }
+
+  .adminlink
+  {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    text-align: center;
+  }
+
+  .adminlink a
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+  }
+
+  .adminlink a:hover
+  {
+    text-decoration: none;
+    color: white;
+    font-size: 9px;
+  }
+}
